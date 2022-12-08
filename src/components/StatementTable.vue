@@ -26,7 +26,7 @@ export default {
     return {
       tableData: [{
         date: '2016-05-03',
-        name: 'Tom',
+        name: '山越',
         statement: '百聞は一見にしかず'
       }, {
         date: '2016-05-02',
