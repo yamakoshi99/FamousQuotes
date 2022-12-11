@@ -1,29 +1,32 @@
 <template>
-  <el-table
-    :data="tableData"
-    height="250"
-    style="width: 100%">
-    <el-table-column
-      prop="date"
-      label="登録日"
-      width="180">
-    </el-table-column>
-    <el-table-column
-      prop="name"
-      label="ニックネーム"
-      width="180">
-    </el-table-column>
-    <el-table-column
-      prop="statement"
-      label="みんなの名言">
-    </el-table-column>
-  </el-table>
+  <div>
+    <el-table
+      :data="tableData"
+      height="250"
+      style="width: 100%">
+      <el-table-column
+        prop="date"
+        label="登録日"
+        width="180">
+      </el-table-column>
+      <el-table-column
+        prop="name"
+        label="ニックネーム"
+        width="180">
+      </el-table-column>
+      <el-table-column
+        prop="statement"
+        label="みんなの名言">
+      </el-table-column>
+    </el-table>
+  </div>
 </template>
 
 <script>
 export default {
   data () {
     return {
+      message: '',
       tableData: [{
         date: '2016-05-03',
         name: '山越',

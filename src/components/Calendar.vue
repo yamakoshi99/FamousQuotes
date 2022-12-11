@@ -1,9 +1,11 @@
 <template>
-  <el-date-picker
-    v-model="date"
-    type="date"
-    placeholder="カレンダーを選択">
-  </el-date-picker>
+  <div>
+    <el-date-picker
+      v-model="date"
+      type="date"
+      placeholder="カレンダーを選択">
+    </el-date-picker>
+  </div>
 </template>
 
 <script>
